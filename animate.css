@@ -1,0 +1,145 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+.text{
+    color: aqua;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: monospace;
+}
+#container{
+    display: flex;
+}
+.nextto{
+   
+    padding: 40px;
+    text-align: center;
+    margin-left: 10px; 
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: cursive;
+    letter-spacing: 1px;
+
+}
+#box{
+    
+  max-width: 430px;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 40px;
+    border: 1px solid green;
+    border-radius: 15px;
+    align-items: center;
+    border: 2px solid rgb(186, 136, 233);
+    box-shadow: 0px 0px 30px green;
+   
+   
+}
+.box1{
+   
+    background-color: aqua;
+    width: 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.box2{
+    background-color: aqua;
+    width: 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.box3{
+    background-color: aqua;
+    width: 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.box4{
+    background-color: aqua;
+    width: 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.box5{
+    background-color: aqua;
+    width: 100px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.box1:hover{
+             animation: scale 1s ease;
+             box-shadow: 0px 0px 10px black;
+}
+@keyframes scale{
+     to{
+        scale: 1.1;
+        background-color: hsl(180, 73%, 28%);
+    }
+}
+.box2:hover{
+             animation: move 1s ease;
+             box-shadow: 0px 0px 10px black;
+}
+@keyframes move{
+     to{
+        transform: translateX(40px);
+        background-color: hsl(180, 73%, 28%);
+    }
+}
+.box3:hover{
+             animation: moveY 1s ease;
+             box-shadow: 0px 0px 10px black;
+}
+@keyframes moveY{
+     to{
+        transform: translateY(40px);
+        background-color: hsl(180, 73%, 28%);
+    }
+}
+.box4:hover{
+             animation: shrink 2s ease;
+             box-shadow: 0px 0px 10px black;
+}
+@keyframes shrink{
+     to{
+        scale: -1;
+        background-color: hsl(180, 73%, 28%);
+    }
+}
+.box5:hover{
+             animation: rotate 2s ease;
+             box-shadow: 0px 0px 10px black;
+}
+@keyframes rotate{
+     to{
+        transform: rotate(360deg);
+        background-color: hsla(180, 73%, 28%, 0.829);
+    }
+}
